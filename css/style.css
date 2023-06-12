@@ -1,12 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
 body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 21px;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 570px;
   margin: 0 auto;
+  padding: 100px 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.section-one {
+  background-color: #d7d7d7;
+}
+
+.section-two {
+  background-color: #ffeaea;
+}
+
+.section-three {
+  background-color: #eaf9ff;
 }
 
 /* Typography */
@@ -16,12 +42,18 @@ h2 {
   font-weight: 300;
 }
 
+img {
+  padding-top: 100px;
+}
+
 h1 {
-  font-size: 60;
+  margin: 0;
+
+  font-size: 70px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 60px;
 }
 
 h3 {
@@ -32,4 +64,19 @@ h3 {
 
 .size-down {
   font-size: 16px;
+}
+
+.bold-block {
+  font-weight: bold;
+  display: block;
+}
+
+.link {
+  color: #99d930;
+  font-weight: bold;
+}
+
+.link:hover,
+link:focus {
+  color: #131313;
 }
