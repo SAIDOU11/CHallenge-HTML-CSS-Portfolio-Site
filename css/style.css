@@ -4,12 +4,13 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  min-width: 320px;
 }
 
 .container {
-  width: 570px;
+  width: 100%;
   margin: 0 auto;
-  padding: 45px 0;
+  padding: 2.8em 0;
 }
 
 img {
@@ -38,13 +39,12 @@ h1 {
 }
 .border {
   width: 100%;
-  margin-top: 15px;
   border-top: 1px solid #c4c4c4;
   border-bottom: 1px solid #c4c4c4;
 }
 
 .border h2 {
-  margin: 20px;
+  margin: 1.25em;
 }
 
 h3 {
@@ -52,14 +52,14 @@ h3 {
 }
 
 p {
-  margin-bottom: 0;
+  margin: 1em 2em;
 }
 
 /* classes */
 
 .size-down {
-  font-size: 16px;
-  margin: 10px auto 30px;
+  font-size: 1rem;
+  margin: 0.625em auto 0.31em;
 }
 
 .bold {
@@ -87,11 +87,11 @@ link:focus {
 .link-style {
   display: inline-block;
   color: #252525;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em;
   text-decoration: none;
   font-weight: 900;
   background-color: #99d930;
-  margin-top: 30px;
+  margin-top: 2em;
 }
 
 .link-style:hover,
@@ -104,4 +104,12 @@ link:focus {
 .inverse .link-style:focus {
   background-color: #fff;
   color: #252525;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2.8em 0;
+  }
 }
