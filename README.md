@@ -1,5 +1,5 @@
 # The Frontend Developer Career Path
 
-# Module 4 Scrimba Bootcamp
+# Module 10 Scrimba Frontend Developer Career Path. Essential CSS concepts.
 
 - HTML CSS Portfolio Challenge
